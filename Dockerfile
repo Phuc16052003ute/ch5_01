@@ -1,4 +1,4 @@
-FROM tomcat:10.1.13-jdk11-temurin-jammy
+FROM tomcat:10.1.13-jdk11
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
 RUN rm -rf /usr/local/tomcat/webapps/examples
 ADD ch5_01-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/
