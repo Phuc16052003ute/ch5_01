@@ -3,7 +3,7 @@ RUN rm -rf /usr/local/tomcat/webapps/ROOT
 RUN rm -rf /usr/local/tomcat/webapps/examples
 ADD ch5_01-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/
 
-EXPOSE 8081
+EXPOSE 8080
 CMD ["catalina.sh", "run"]
 
 #1 Apache Tomcat phiên bản 9.0 và Java 11 sử dụng Corretto (OpenJDK) trên Amazon Linux 2.
